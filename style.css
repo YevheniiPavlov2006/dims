@@ -519,9 +519,9 @@ input:checked + .slider:before {
     align-items: start;
   }
   .main_img{
-    width: 100%;
+    width: 300px;
     margin-top: 140px;
-    margin-right: -40px;
+    margin-right: 0px;
   }
   .logo, .logo_light{
     width: 60px;
@@ -532,6 +532,18 @@ input:checked + .slider:before {
   }
   .header_menu{
     gap: 6px;
+  }
+}
+@media(max-width:350px){
+  .main_img{
+    width: 260px;
+    margin-top: 150px;
+  }
+  .main_button{
+    height: 40px;
+  }
+  .main_button:hover{
+    height: 42px;
   }
 }
 
