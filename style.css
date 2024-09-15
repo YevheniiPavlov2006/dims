@@ -723,7 +723,8 @@ input:checked + .slider:before {
 }
 @media(max-width:500px){
   .about{
-    padding: 40px 0;
+    padding: 10px 0 40px 0;
+    gap: 20px;
   }
   .about_body{
     flex-direction: column-reverse;
@@ -737,6 +738,9 @@ input:checked + .slider:before {
   }
   .about_body_content{
     width: 100%;
+  }
+  .about_work_text{
+    margin-bottom: -40px;
   }
   .about_title{
     font-size: 60px;
