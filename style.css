@@ -16,6 +16,7 @@
   --alert-color: black;
 }
 
+
 html,   
 body{   
   width: 100%;   
@@ -247,6 +248,7 @@ input:checked + .slider:before {
 @media(max-width:800px){
   .wrapper{
     padding: 0 40px;
+    overflow: hidden;
   }
   .main_content{
     gap: 40px;
@@ -392,11 +394,13 @@ input:checked + .slider:before {
   }
   .wrapper{
     padding: 0 30px;
+    overflow: hidden;
   }
 }
 @media(max-width:500px){
   .wrapper{
     padding: 0 20px;
+    overflow: hidden;
   }
   .header_menu_item{
     font-size: 12px;
@@ -552,7 +556,7 @@ input:checked + .slider:before {
 }
 .project_body{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
