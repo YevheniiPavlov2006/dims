@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="light_theme"> 
+
+<body class="light_theme">
   <div class="wrapper" id="wrapper">
     <div class="header">
       <img class="logo" src="img/logo1.png" alt="">
       <img class="logo_light" src="img/logo-light.png" alt="">
       <div class="header_menu">
-        <div class="header_menu_item">contact</div>
-        <div class="header_menu_item">about</div>
-        <div class="header_menu_item">products</div>
+        <a href="#contacts" class="header_menu_item">CONTACT</a>
+        <a href="#about" class="header_menu_item">ABOUT</a>
+        <a href="#products" class="header_menu_item">PRODUCTS</a>
       </div>
       <label for="header-btn" class="switch">
         <input type="checkbox" id="header-btn">
@@ -37,7 +39,7 @@
       </div>
       <img class="main_img" src="img/MacBook Air (2022).png" alt="">
     </div>
-    <div class="projects">
+    <div id="products" class="projects">
       <div class="project_text">
         <div class="project_title">TOP PROJECTS</div>
         <div class="project_subtitle">dims</div>
@@ -63,7 +65,7 @@
         <div class="project_footer_text">We create <span>design</span> with soul</div>
       </div>
     </div>
-    <div class="about">
+    <div id="about" class="about">
       <div class="about_title">about</div>
       <div class="about_body">
         <img class="about_img" src="img/about.png" alt="">
@@ -71,26 +73,31 @@
           <div class="about_content_title">Dims designer</div>
           <div class="about_content_subtitle">graf and web</div>
           <div class="about_content_text about_work_text">Work in figma from romania </div>
-          <div class="about_content_text">Create all design:<br/> logo, website, poster, flyer, label, presentation</div>
+          <div class="about_content_text">Create all design:<br /> logo, website, poster, flyer, label, presentation
+          </div>
           <div class="about_content_text"><span>working experience</span> 2y> </div>
         </div>
       </div>
     </div>
-    <footer class="footer">
+    <footer id="contacts" class="footer">
       <div class="footer_text">Contacts</div>
       <div class="footer_contacts">
         <a href="http://t.me/pavlovdmitrii21"><img class="footer_sm_img" src="img/ic_sharp-telegram.png" alt=""></a>
-        <a href="https://www.instagram.com/pavlovdmitrii_ua?igsh=MTYwamQ1eWl4OWY5dA=="><img class="footer_sm_img" src="img/simple-icons_instagram.png" alt=""></a>
+        <a href="https://www.instagram.com/pavlovdmitrii_ua?igsh=MTYwamQ1eWl4OWY5dA=="><img class="footer_sm_img"
+            src="img/simple-icons_instagram.png" alt=""></a>
         <a href="https://wa.me/qr/DSWBWFFWQLQ2K1"><img class="footer_sm_img" src="img/ri_whatsapp-fill.png" alt=""></a>
       </div>
       <div class="footer_contacts_dark">
         <a href="http://t.me/pavlovdmitrii21"><img class="footer_sm_img" src="img/ic_sharp-telegram (1).png" alt=""></a>
-        <a href="https://www.instagram.com/pavlovdmitrii_ua?igsh=MTYwamQ1eWl4OWY5dA=="><img class="footer_sm_img" src="img/simple-icons_instagram (1).png" alt=""></a>
-        <a href="https://wa.me/qr/DSWBWFFWQLQ2K1"><img class="footer_sm_img" src="img/ri_whatsapp-fill (1).png" alt=""></a>
-      
+        <a href="https://www.instagram.com/pavlovdmitrii_ua?igsh=MTYwamQ1eWl4OWY5dA=="><img class="footer_sm_img"
+            src="img/simple-icons_instagram (1).png" alt=""></a>
+        <a href="https://wa.me/qr/DSWBWFFWQLQ2K1"><img class="footer_sm_img" src="img/ri_whatsapp-fill (1).png"
+            alt=""></a>
+
       </div>
     </footer>
   </div>
   <script src="app.js"></script>
 </body>
+
 </html>
