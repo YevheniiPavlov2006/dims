@@ -147,8 +147,17 @@ input:checked + .slider:before {
   transition: 0.3s;
   cursor: pointer;
 }
-.main_button:hover{
-  height: 82px;
+.contact_button {
+  transform-origin: 0px center;
+  transition: 0.3s;
+}
+@media (hover: hover) {
+  .contact_button:hover{
+    transform: scaleX(1.1);
+  }
+}
+.contact_button:active {
+  transform: scaleX(1.1);
 }
 .main_content_text{
   display: flex;
