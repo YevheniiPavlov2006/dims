@@ -81,7 +81,7 @@ body{
 }
 .button_exit{
   position: absolute;
-  bottom: 20px;
+  bottom: 60px;
   left: 60px;
 }
 .button_exit_img{
@@ -121,7 +121,7 @@ body{
     gap: 10px;
   }
   .button_exit{
-    bottom: 5px;
+    bottom: 40px;
     left: 20px;
   }
 }
